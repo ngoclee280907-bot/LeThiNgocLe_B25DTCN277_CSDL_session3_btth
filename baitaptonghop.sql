@@ -1,7 +1,6 @@
-set SQL_SAFE_UPDATES = 0;
-drop database if exists FashionShop;
 create database FashionShop;
 use FashionShop;
+
 create table products (
     ProductID varchar(10) primary key,
     ProductName varchar(255),
